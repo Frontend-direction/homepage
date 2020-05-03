@@ -2,6 +2,10 @@
     margin-top: 0;
   }
 
+  main {
+    margin-bottom: 50vh;
+  }
+
   .timeline {
     margin-top: 0.8rem;
   }
@@ -94,6 +98,20 @@
 
   .labels_container {
     height: 30px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer__content div {
+    justify-self: center;
   }
 
   /* ----- ADAPTIVE DESIGNE ----*/
