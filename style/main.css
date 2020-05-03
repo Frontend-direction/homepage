@@ -1,0 +1,99 @@
+  .timeline {
+    margin-top: 0.8rem;
+  }
+
+  .timeline__block>li p {
+    margin: 0;
+  }
+
+  .timeline__block>li {
+    margin-bottom: 1rem;
+  }
+
+  /* Tags */
+  [data-tag]>*:first-child:after {
+    font-size: 0.6em;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0em 0.75em;
+    border-radius: 15px;
+    height: 1rem;
+    margin-left: 0.5em;
+    margin-top: -1px;
+    vertical-align: middle;
+    box-shadow: inset 0 0 0 1px;
+    opacity: 0.5;
+    transition: opacity 0.2s linear;
+  }
+
+  [data-tag]:hover>*:first-child:after {
+    color: #ffffff;
+    opacity: 1;
+    box-shadow: none;
+  }
+
+  [data-tag="usa"]>*:first-child:after {
+    content: "usa";
+  }
+
+  [data-tag="sssr"]>*:first-child:after {
+    content: "sssr";
+  }
+
+  [data-tag="usa"]:hover>*:first-child:after {
+    background: blue;
+  }
+
+  [data-tag="sssr"]:hover>*:first-child:after {
+    background: red;
+  }
+
+  /* Highlighted list item */
+  ul:not(.timeline)>li.highlighted,
+  ul:not(.timeline)>li.bordered {
+    margin: 0.25em 0 0.25em -1.75em;
+    padding: 0.25em 0.5em 0.25em 1.75em;
+  }
+
+  ul:not(.timeline)>li.highlighted>div {
+    margin-bottom: 0.25em;
+  }
+
+  /*JOB*/
+  .job__icon {
+    width: 18px;
+  }
+
+  /* CONTACTS*/
+  .contacts li a.twitter:hover {
+    color: #00aff0;
+  }
+
+  .contacts li a.instagram:hover {
+    color: #517fa4;
+  }
+
+  /* TIMELINE*/
+  .timeline__list li {
+    margin-bottom: .5em;
+  }
+
+  .labels_container {
+    height: 30px;
+  }
+
+  /* ----- ADAPTIVE DESIGNE ----*/
+  /*AVATAR*/
+  @media only screen and (max-width: 1264px) {
+    .avatar {
+      max-width: 10rem;
+    }
+  }
+
+  @media only screen and (max-width: 1264px) {
+    .audio__records {
+      padding-left: 0.5rem;
+    }
+  }
