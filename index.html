@@ -1,27 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 
 <head>
-  <meta charset="UTF-8" />
-  <title>Résumé</title>
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-135383703-1"></script>
+  <title>WINNIE-THE-POOH — Résumé</title>
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+  <meta charset="utf-8">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="This is just a résumé." name="subject">
+  <meta content="This is just some info about imaginary bear" name="description">
+  <meta content="index,follow" name="robots">
+  <meta content="index,follow" name="googlebot">
+  <meta content="nositelinkssearchbox" name="google">
+  <meta content="notranslate" name="google">
   <link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+  <link rel="stylesheet" href="./style/main.css">
 </head>
 
 <body>
   <main>
+    <img src="./assets/images/hive.gif">
     <article>
       <div class="page" style="border-color: midnightblue;">
         <div class="stackable grid">
           <div class="row">
             <div class="three wide center aligned column">
-              <!-- Avatar -->
+              <div class="avatar-wrapper">
+                <object class="avatar" data="./assets/images/avatar_eng.png" role="img"
+                  aria-label="My profile picture"></object>
+                <audio class="beeSound" src="assets/sound/bee-noise.mp3">
+              </div>
             </div>
             <div class="thirteen wide column">
               <div class="stackable grid">
                 <div class="sixteen wide column">
                   <h1 class="name">Winnie-the-Pooh</h1>
                   <div class="job">If you have honey I will go to you:)
-                    <img class="job__icon" src="" alt="honey">
+                    🍯
                   </div>
                   <ul class="contacts">
                     <li>
@@ -95,7 +112,7 @@
                 <h3 class="timeline">The debut 👶🏼</h3>
                 <p>"When We Were Very Young" (6 November 1924) by A. A. Milne</p>
                 <h3 class="timeline">Theatre: 🎭</h3>
-                <ul>
+                <ul class="timeline__block">
                   <li class="details">
                     <input type="checkbox" id="theatre-first-period">
                     <label for="theatre-first-period" class="summary"><strong>Future</strong> Click to see
@@ -111,7 +128,7 @@
                     </div>
                   </li>
                 </ul>
-                <ul>
+                <ul class="timeline__block">
                   <li class="details">
                     <input type="checkbox" id="theatre-second-period">
                     <label for="theatre-second-period" class="summary"><strong>now - 1980</strong> Winni second
@@ -131,7 +148,7 @@
                     </div>
                   </li>
                 </ul>
-                <ul>
+                <ul class="timeline__block">
                   <li class="details">
                     <input type="checkbox" id="theatre-third-period">
                     <label for="theatre-third-period" class="summary"><strong>1931-1977</strong>Winni started a theatre
@@ -157,7 +174,7 @@
                 </ul>
 
                 <h3 class="timeline">Audio 🎧</h3>
-                <ul>
+                <ul class="timeline__block">
                   <li class="details">
                     <input type="checkbox" id="project-2">
                     <label for="project-2" class="summary">Recording studios</label>
@@ -169,12 +186,13 @@
                     </div>
                   </li>
 
-                  <ol class="inverted">
+                  <ol class="inverted audio__record">
                     <li>
                       <p><strong>The first record</strong></p>
                       <ul>
                         <audio controls>
-                          <source src="" type="audio/mpeg">
+                          <source src="https://samples.audible.co.uk/bk/rhuk/002903/bk_rhuk_002903_sample.mp3"
+                            type="audio/mp3">
                           Your browser does not support the audio element.
                         </audio>
                       </ul>
@@ -183,7 +201,8 @@
                       <p><strong>The most lovely</strong></p>
                       <ul>
                         <audio controls>
-                          <source src="" type="audio/mpeg">
+                          <source src="https://samples.audible.co.uk/bk/hkid/000033/bk_hkid_000033_sample.mp3"
+                            type="audio/mp3">
                           Your browser does not support the audio element.
                         </audio>
                       </ul>
@@ -191,37 +210,37 @@
                   </ol>
                 </ul>
 
-                <h3 class="timeline">Film 🎬</h3>
-                <ul>
-                  <li data-tag="jam">
+                <h3 class="timeline">Films 🎬</h3>
+                <ul class="timeline__block">
+                  <li data-tag="usa">
                     <p><em>1966</em></p>
                     <p>Winnie the Pooh and the Honey Tree</p>
                   </li>
-                  <li data-tag="jam">
+                  <li data-tag="usa">
                     <p><em>1968</em></p>
                     <p>Winnie the Pooh and the Blustery Day</p>
                   </li>
-                  <li data-tag="jam">
+                  <li data-tag="sssr">
                     <p><em>1969</em></p>
                     <p>Винни-Пух – based on chapter 1</p>
                   </li>
-                  <li data-tag="jam">
+                  <li data-tag="sssr">
                     <p><em>1971</em></p>
                     <p>Винни-Пух идёт в гости</p>
                   </li>
-                  <li data-tag="jam">
+                  <li data-tag="usa">
                     <p><em>1981</em></p>
                     <p>Winnie the Pooh Discovers the Seasons</p>
                   </li>
-                  <li data-tag="jam">
+                  <li data-tag="usa">
                     <p><em>1983</em></p>
                     <p>Winnie the Pooh and a Day for Eeyore</p>
                   </li>
                 </ul>
 
-                <h6>At the end</h6>
+                <h6><em>At the end</em></h6>
                 <h3 class="timeline">Video games 🎮</h3>
-                <ul>
+                <ul class="timeline__block">
                   <li class="details">
                     <input type="checkbox" id="game_first-period">
                     <label for="game_first-period" class="summary"><strong>now-2000</strong>New version of Pooh</label>
@@ -261,43 +280,57 @@
                 </ul>
               </section>
             </div>
-          </div>
-          <div class="six wide column">
-            <section>
-              <h3>Languages</h3>
-              <span class="language" lang="en">🇺🇸 <span>ENGLISH</span></span>
-              <span class="language" lang="ru">🇷🇺 <span>РУССКИЙ</span></span>
-            </section>
-            <section>
-              <h3>Skills</h3>
-              <p class="tags small">A TALENTED POET, STORYTELLER, NEGOTIATOR, ABLE TO CREATE AMAZING GIFTS, MEANS
-                BUSINESS, GOOD AT HONEY EATING, KNOWS HOW TO PARTY</p>
-            </section>
-            <section>
-              <h3>Character</h3>
-              <p class="tags small">FRIENDLY, NAIVE AND SLOW-WITTED, THOUGHTFUL AND STEADFAST, OCCASIONALLY ACKNOWLEDGED
-                HAVING A CLEVER IDEA, USUALLY DRIVEN BY COMMON SENSE</p>
-            </section>
-            <h3>Likes&#x1f603;</h3>
-            <p class="tags small">HONEY,FASHION, GIFTS, PARTIES, GO FOR A WALK, PLAYING GAMES</p>
-            </section>
-            <section>
-              <h3>Dislikes&#x1f61e;</h3>
-              <p class="tags small">
-                TO BE TAUGHT, WHEN SOMEONE DOESN'T WANT TO SHARE HONEY, BEES, HIMSELF WITH A BAD MOOD
-              </p>
-            </section>
-            <section>
-              <h3>Wants 🙋</h3>
-              <p class="tags small bulleted">TO HAVE SOMETHING TO EAT AND THIS SOMETHING HAS TO BE HONEY</p>
-            </section>
-            <section>
+            <div class="six wide column">
+              <section>
+                <h3>Languages</h3>
+                <span class="language lang_en" lang="en">🇺🇸 <span>ENGLISH</span></span>
+                <span class="language lang_ru" lang="ru">🇷🇺 <span>РУССКИЙ</span></span>
+              </section>
+              <section>
+                <h3>Skills</h3>
+                <p class="tags small">A TALENTED POET, STORYTELLER, NEGOTIATOR, ABLE TO CREATE AMAZING GIFTS, MEANS
+                  BUSINESS, GOOD AT HONEY EATING, KNOWS HOW TO PARTY</p>
+              </section>
+              <section>
+                <h3>Character</h3>
+                <p class="tags small">FRIENDLY, NAIVE AND SLOW-WITTED, THOUGHTFUL AND STEADFAST, OCCASIONALLY
+                  ACKNOWLEDGED
+                  HAVING A CLEVER IDEA, USUALLY DRIVEN BY COMMON SENSE</p>
+              </section>
+              <h3>Likes&#x1f603;</h3>
+              <p class="tags small">HONEY,FASHION, GIFTS, PARTIES, GO FOR A WALK, PLAYING GAMES</p>
+              </section>
+              <section>
+                <h3>Dislikes&#x1f61e;</h3>
+                <p class="tags small">
+                  TO BE TAUGHT, WHEN SOMEONE DOESN'T WANT TO SHARE HONEY, BEES, HIMSELF WITH A BAD MOOD
+                </p>
+              </section>
+              <section>
+                <h3>Wants 🙋</h3>
+                <p class="tags small bulleted">TO HAVE SOMETHING TO EAT AND THIS SOMETHING HAS TO BE HONEY</p>
+              </section>
+              <section>
+            </div>
           </div>
         </div>
       </div>
-      </div>
     </article>
   </main>
+
+  <footer class="footer">
+    <h1>Stay home, watch WINNIE</h1>
+    <div class="footer__content">
+      <div><img src="./assets/images/2.png" alt="winniethepooh"></div>
+      <div><img src="./assets/images/3.png" alt="winniethepooh"></div>
+      <div><img src="./assets/images/4.png" alt="winniethepooh"></div>
+      <div><img src="./assets/images/5.png" alt="winniethepooh"></div>
+      <div><img src="./assets/images/1a.png" alt="winniethepooh"></div>
+      <div><img src="./assets/images/6.png" alt="winniethepooh"></div>
+    </div>
+  </footer>
+
+  <script src="./script/index.js"></script>
 </body>
 
 </html>
