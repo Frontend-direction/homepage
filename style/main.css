@@ -10,6 +10,14 @@
     margin-bottom: 1rem;
   }
 
+  .language {
+    cursor: pointer;
+  }
+
+  .language:hover {
+    background-color: rgba(199, 193, 193, 0.349);
+  }
+
   /* Tags */
   [data-tag]>*:first-child:after {
     font-size: 0.6em;
@@ -86,13 +94,13 @@
 
   /* ----- ADAPTIVE DESIGNE ----*/
   /*AVATAR*/
-  @media only screen and (max-width: 1264px) {
+  @media only screen and (max-width: 1200px) {
     .avatar {
       max-width: 10rem;
     }
   }
 
-  @media only screen and (max-width: 1264px) {
+  @media only screen and (max-width: 1200px) {
     .audio__records {
       padding-left: 0.5rem;
     }
