@@ -13,9 +13,17 @@ langRuEl.addEventListener('click', (e) => {
 
 
 avatarEl.addEventListener('mouseenter', () => {
-  audioEl.play();
+  try {
+    audioEl.play();
+  } catch (e) {
+    console.log(e)
+  }
 });
 
 avatarEl.addEventListener('mouseleave', () => {
-  audioEl.pause();
+  try {
+    audioEl.pause();
+  } catch (e) {
+    console.log(e)
+  }
 });
